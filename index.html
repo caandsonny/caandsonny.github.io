@@ -29,7 +29,6 @@
       }
       body {
         line-height: 1;
-        margin: 10px;
       }
       ol, ul {
         list-style: none;
@@ -51,6 +50,7 @@
       }
       section {
         display: flex;
+        padding: 15px 15px 0 0;
       }
       .g {
         padding: 15px;
@@ -82,12 +82,16 @@
   </section>
   <section>
     <!-- Bios -->
-    <div class="g grid-33"></div>
+    <div class="g grid-33">
+      <div style="aspect-ratio: 1; background: black;"></div>
+    </div>
     <p class="g grid-66">Sonny Aiken is a musician.</p>
   </section>
   <section>
     <!-- Bios -->
-    <p>C.A. Jackson is also a musician.</p>
-    <div style="width: 150px; height: 150px; background: black;"></div>
+    <p class="g grid-66">C.A. Jackson is also a musician.</p>
+    <div class="g grid-33">
+      <div style="aspect-ratio: 1; background: black;"></div>
+    </div>
   </section>
 </html>
