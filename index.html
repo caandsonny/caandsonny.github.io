@@ -29,6 +29,7 @@
       }
       body {
         line-height: 1;
+        margin: 10px;
       }
       ol, ul {
         list-style: none;
@@ -51,6 +52,27 @@
       section {
         display: flex;
       }
+      .g {
+        padding: 15px;
+        margin: 0 0 15px 15px;
+        background-color: #f5f3ed;
+      }
+
+      .grid-33 {
+        width: calc(33.3333% - 15px);
+      }
+
+      .grid-50 {
+        width: calc(50% - 15px);
+      }
+
+      .grid-66 {
+        width: calc(66.6666% - 15px);
+      }
+
+      .grid-100 {
+        width: calc(100% - 15px);
+      }
     </style>
   </head>
   <section>
@@ -60,8 +82,8 @@
   </section>
   <section>
     <!-- Bios -->
-    <div style="width: 150px; height: 150px; background: black;"></div>
-    <p>Sonny Aiken is a musician.</p>
+    <div class="g grid-33"></div>
+    <p class="g grid-66">Sonny Aiken is a musician.</p>
   </section>
   <section>
     <!-- Bios -->
