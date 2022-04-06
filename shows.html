@@ -1,8 +1,17 @@
 <html>
   <head>
+    <title>Shows | C.A. and Sonny</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="description" content="The C.A. and Sonny Website">
     <style>
       html, body, div, span, applet, object, iframe,
       h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -73,39 +82,45 @@
       .grid-100 {
         width: calc(100% - 15px);
       }
+      .icon {
+        width: 25px;
+      }
+      .icon-link {
+        margin-
+      }
+      .img-container {
+        margin-right: 30px;
+      }
+      .bio-container {
+        display: flex;
+      }
+      @media only screen and (max-width: 768px) {
+        .bio-container {
+          flex-direction: column;
+        }
+        .img-container {
+          text-align: center;
+          margin-bottom: 15px;
+          margin-right: 0;
+        }
+      }
     </style>
   </head>
   <!-- Header -->
   <section>
     <div class="g grid-100">
       <h1>C.A. and Sonny</h1>
-      <!-- insert logo here -->
-      <p>they play music together</p>
     </div>
   </section>
   
   <!-- Bios -->
   <section>
-    <div class="g grid-100">
-      <img title="a stylized drawing of Sonny Aiken" style="vertical-align: middle;" src="img/sonny-aiken.png"/>
-      <span>Sonny Aiken is a musician.</span>
+    <div class="g grid-100 bio-container">
+      <div style="flex: 1; display: flex; justify-content: center; flex-flow: column;">
+        <p>April 15th, 2022 | 8pm</p>
+        <p>Angus Steak and Wine</p>
+      </div>
     </div>
-    
-  </section>
-  <section>
-    <div class="g grid-100">
-      <img title="a stylized drawing of C.A. Jackson" style="vertical-align: middle;" src="img/ca-jackson.png"/>
-      <span>C.A. Jackson is also a musician.</span>
-    </div>
-  </section>
-  
-  <!-- Poster -->
-  <section>
-    
-  </section>
-  
-  <!-- Embeds -->
-  <section>
     
   </section>
   
